@@ -1,0 +1,228 @@
+/* -- Загальне -- */
+:root {
+  --color-basic: #212121;
+  --color-minor: #757575;
+  --color-current: #2196f3;
+  --color-current-active: #188ce8;
+  --color-brand: #2f303a;
+  --color-bacground-basic: #ffffff;
+  --color-bacground-minor: #f5f5f5;
+  --color-bacground-body: #f5f4fa;
+}
+
+/* Ховаємо заголовок */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* прибираємо стилі з "Ul" */
+.site-nav,
+.heading-list,
+.promo,
+.contacts,
+.team-list,
+.portfolio-button,
+.portfolio-title {
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: var(--color-minor);
+  background-color: var(--color-bacground-basic);
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--color-current);
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo > span {
+  color: #000000;
+}
+
+.link {
+  color: var(--color-basic);
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+}
+
+.current {
+  color: var(--color-current);
+}
+
+/* header*/
+/* Скасовуємо підкреслення у посилань */
+a.decoration,
+a.decoration-more {
+  text-decoration: none;
+  font-style: normal;
+  color: var(--color-minor);
+  font-weight: 500;
+  line-height: 1.14;
+}
+
+a.decoration-more {
+  color: var(--color-bacground-basic);
+}
+
+address a.decoration {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+}
+
+a.decoration:hover,
+a.decoration-more:hover,
+a.decoration:focus,
+a.decoration-more:focus {
+  color: var(--color-current);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--color-current);
+}
+
+/* main */
+.hero {
+  background-color: var(--color-brand);
+}
+
+.hero-title {
+  color: var(--color-bacground-basic);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+/* Button */
+.primary-button {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  color: var(--color-bacground-basic);
+  background-color: var(--color-current);
+  border: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.primary-button:hover,
+.primary-button:focus {
+  color: var(--color-bacground-basic);
+  background-color: var(--color-current-active);
+}
+
+.promo-title {
+  color: var(--color-basic);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.promo-text {
+  font-weight: 400;
+  line-height: 1.71;
+}
+
+.heading {
+  color: var(--color-basic);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+}
+
+.team-body {
+  background-color: var(--color-bacground-body);
+}
+
+.team-list {
+  background-color: var(--color-bacground-basic);
+}
+
+.team-caption {
+  color: var(--color-basic);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.team-caption + p {
+  color: var(--color-minor);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+/* portfolio */
+.portfolio-button button {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: var(--color-bacground-body);
+  border: 1px solid var(--color-bacground-basic);
+  border-radius: 4px;
+}
+
+.portfolio-button button:hover,
+.portfolio-button button:focus {
+  color: var(--color-bacground-basic);
+  background-color: var(--color-current);
+  border: 0px;
+  border-radius: 4px;
+}
+
+.portfolio-title a {
+  text-decoration: none;
+}
+
+.portfolio-title h2 {
+  color: var(--color-basic);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.portfolio-title p {
+  color: var(--color-minor);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+}
+/*Не знаю чи потрібно чи ні, у макеті при наводженні є підкреслювання*/
+
+/* .portfolio-title h2:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color-bacground-body);
+}
+
+.portfolio-title p:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--color-bacground-body);
+} */
+
+/* footer */
+.page-footer {
+  background-color: var(--color-brand);
+}
+.page-footer span {
+  color: var(--color-bacground-basic);
+}
