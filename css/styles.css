@@ -10,6 +10,17 @@
   --color-bacground-body: #f5f4fa;
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section {
+  padding: 47px 0;
+}
+
 /* Ховаємо заголовок */
 .visually-hidden {
   position: absolute;
@@ -24,8 +35,8 @@
   margin: -1px;
 }
 
-/* прибираємо стилі з "Ul" */
-.site-nav,
+/* прибираємо стилі з "Ul" (закоментував бо знайшов більш компактний варіант)*/
+/* .site-nav,
 .heading-list,
 .promo,
 .contacts,
@@ -33,6 +44,27 @@
 .portfolio-button,
 .portfolio-title {
   list-style: none;
+} */
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 body {
@@ -103,6 +135,7 @@ a.decoration-more:focus {
 }
 
 .hero-title {
+  margin-bottom: 30px;
   color: var(--color-bacground-basic);
   text-transform: uppercase;
   font-weight: 900;
@@ -112,6 +145,10 @@ a.decoration-more:focus {
 
 /* Button */
 .primary-button {
+  padding: 10px 32px;
+  margin-bottom: 200px;
+  border-radius: 4px;
+  border: 0;
   cursor: pointer;
   font-family: inherit;
   font-size: 16px;
@@ -119,9 +156,7 @@ a.decoration-more:focus {
   line-height: 1.88;
   color: var(--color-bacground-basic);
   background-color: var(--color-current);
-  border: 0;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
 
 .primary-button:hover,
@@ -131,6 +166,7 @@ a.decoration-more:focus {
 }
 
 .promo-title {
+  margin-bottom: 10px;
   color: var(--color-basic);
   text-transform: uppercase;
   font-weight: 700;
@@ -138,11 +174,13 @@ a.decoration-more:focus {
   line-height: 1.14;
 }
 .promo-text {
+  /* margin-bottom: 94px; */
   font-weight: 400;
   line-height: 1.71;
 }
 
 .heading {
+  margin-bottom: 50px;
   color: var(--color-basic);
   font-size: 36px;
   font-weight: 700;
@@ -225,4 +263,10 @@ a.decoration-more:focus {
 }
 .page-footer span {
   color: var(--color-bacground-basic);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
