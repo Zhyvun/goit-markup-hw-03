@@ -94,6 +94,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .logo > span {
@@ -105,6 +106,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .current {
@@ -160,7 +162,8 @@ a.decoration-more {
   font-style: normal;
   color: var(--color-minor);
   font-weight: 500;
-  line-height: 1.14;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 a.decoration-more {
@@ -208,6 +211,7 @@ a.decoration-more:focus {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  letter-spacing: 0.06em;
 }
 
 /* Button */
@@ -224,6 +228,7 @@ a.decoration-more:focus {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.88;
+  letter-spacing: 0.06em;
   color: var(--color-bacground-basic);
   background-color: var(--color-current);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -251,10 +256,12 @@ a.decoration-more:focus {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 .promo-text {
   font-weight: 400;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .heading-list {
   display: flex;
@@ -269,6 +276,7 @@ a.decoration-more:focus {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -299,6 +307,7 @@ a.decoration-more:focus {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -307,6 +316,7 @@ a.decoration-more:focus {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -323,6 +333,8 @@ a.decoration-more:focus {
   cursor: pointer;
   font-family: inherit;
   font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
   font-weight: 500;
   background-color: var(--color-bacground-body);
   border: 1px solid var(--color-bacground-basic);
@@ -368,6 +380,7 @@ a.decoration-more:focus {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
   margin-bottom: 4px;
 }
 
@@ -376,6 +389,7 @@ a.decoration-more:focus {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.03em;
 }
 /*Не знаю чи потрібно чи ні, у макеті при наводженні є підкреслювання*/
 
